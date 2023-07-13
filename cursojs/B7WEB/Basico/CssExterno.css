@@ -1,0 +1,17 @@
+
+
+h1{
+    color: rgb(187, 255, 0);
+    font-size: 15px;
+    }
+a{
+    color: green;
+    font-size: 30px;
+}
+img{
+    width: 200px;
+}
+li{
+    font-weight: bold;
+    color: blueviolet;
+}    

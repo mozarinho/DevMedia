@@ -1,0 +1,55 @@
+p {
+	font: 14px/22px "Helvetica Neue", arial, sans-serif;
+}
+
+p:nth-of-type(2n+1) {
+	background: rgb(115, 255, 0);
+}
+
+/*usando pseudo-classes - Fazendo efeito zebrado*/
+tr:nth-of-type(2n+1) {
+	background: #eee;
+}
+
+input:disabled, 
+input:read-only {
+	background: #eee;
+	border:  1px solid #222;
+	cursor: not-allowed;
+}
+
+
+input:checked + label {
+	color: green;
+}
+
+input:disabled {
+	border: 1px solid red;
+}
+
+input:not(:disabled) {
+	border: 1px solid green;
+}
+
+p:last-of-type {
+	font-style: italic;
+	color: red;
+}
+
+p:nth-child(2) {
+	background: #eee;
+}
+
+p:nth-last-child(3) {
+	background: #eee;
+}
+
+p:nth-last-of-type(2) {
+	background: black;
+	color:white
+}
+/*
+p:nth-last-of-type(-n+2) {
+	background: #eee;
+}
+*/

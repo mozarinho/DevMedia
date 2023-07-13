@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="GET" action="http://arquivo.devmedia.com.br/projeto/requisicao.php"></form>
+    <div>
+        <label>Email: </label>
+        <input type="email" name="email" id="senha">
+    </div>
+    <div>
+        <label>Senha:</label>
+        <input type="password" name="senha" id="senha">
+    </div>
+    <div>
+        <label>Nome:</label>
+        <input type="text" name="nome" id="nome" placeholder="Ex: Marcio ">
+    </div>
+    
+    <div>
+        <label>Telefone:</label>
+        <input type="tel" name="telefone" placeholder="Ex: (99) 99999-9999" />
+    </div>
+    <div>
+        <label>Sexo:</label>
+        <input type="radio" value="masculino" name="sexo" checked><!--checked deixa como valor padrão-->
+        <label >Masculino</label>
+        <input type="radio" value="feminino" name="sexo">
+        <label >Feminino</label>
+    </div>
+    <div>
+        <label>Data de Nascimento</label>
+        <input type="date">
+    </div>
+    <div>
+        <label>Rua</label>
+        <input type="text" name="endereco_rua" required />
+      </div>
+      <div>
+        <label>Numero</label>
+        <input type="number" name="endereco_numero" min="1" max="1000" value="" required />
+      </div>
+      <div>
+        <label>Complemento</label>
+        <input type="text" name="endereco_complemento" required />
+      </div>
+      <div>
+        <label>Cidade</label>
+        <input type="text" name="endereco_cidade" required />
+      </div>
+      <div>
+          <label>Estado</label>
+          <select name="" id="">
+              <option value="RJ">Rio de Janeiro</option>
+              <option value="SP">Sao Paulo</option>
+              <option value="PB">Paraiba</option>
+              <option value="PE">Pernambuco</option>
+              <option value="RS">Rio Grande do Sul</option>
+              <option value="PA">Pará</option>
+              
+          </select>
+      </div>
+      <div>
+          <label >Como conheceu o Hello Pizza</label>
+         <textarea maxlength="256" placeholder="Explique para gente como você nos conhece" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <input type="checkbox" checked>
+          <label for="">Deseja receber ofertas por email?</label>
+          
+      </div>
+      
+</body>
+
+</html>

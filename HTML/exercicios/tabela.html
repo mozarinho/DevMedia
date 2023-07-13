@@ -1,0 +1,53 @@
+<table >
+    <caption>Produtos</caption>
+    <thead>
+        <tr>
+            <th>Produto</th>
+            <th>Preço</th>
+            <th>Quantidade</th>
+            <th>Total</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>iPad</td>
+            <td>2389,90</td>
+            <td>5</td>
+            <td>16445,90</td>
+        </tr>
+        <tr>
+            <td>Samsung S9</td>
+            <td>1389,90</td>
+            <td>10</td>
+            <td>13445,90</td>
+
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr> 
+            <td colspan="3">Total</td> <!-- rowspan -->
+            <td r>30190,00</td>
+        </tr>
+    </tfoot>
+</table>
+
+<style>
+    table{
+        border-collapse: collapse;
+            }
+            th,td{
+                padding: 10px;
+            }
+            thead tr{
+                border-bottom: solid 3px red;
+            }
+            tbody tr:hover{ /* hover: clique do mouse estiver pro cima */
+                background-color: #dedede;
+            }
+            tfoot{
+                background-color:#444;
+                color: #fff;
+                font-weight:bolder;
+            }
+            
+</style>

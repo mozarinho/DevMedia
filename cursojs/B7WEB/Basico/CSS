@@ -1,0 +1,14 @@
+3 formas de inserção do CSS no html:
+    -CSS inline
+    -CSS interno
+    -CSS externo
+
+    2 formas de atribuir especificamente um estilo:
+    - Colocando #ID.(SO utlizado uma unica vez) EX:   <h1 id="Titulo">Título da página</h1>
+    -Usando .CLASS ( mais utilizado, pode ser utilizado em varios momentos) EX: <p class="texto">Era uma vez...</p>
+
+    -Selecionando um item dentro de outro item:
+  EX:  ol li{
+     color:pink
+       }
+    

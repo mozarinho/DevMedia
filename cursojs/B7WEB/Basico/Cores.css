@@ -1,0 +1,9 @@
+/*Existem 4 formas, mas so 3 são utilizadas:
+Só existem na memoria 140 nome de cores
+*/
+
+#Titulo{
+    background-color: red ;
+    background-color: rgb(0,0,255); /*0 a 255*/
+    background-color: #FF0000; /*Numero hexadecimal 0 a 9 A a F*/
+}

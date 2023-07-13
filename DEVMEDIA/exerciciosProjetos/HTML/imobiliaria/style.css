@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.secao{
+    text-align: center;
+    /* padding: 30px, auto, 30px, auto; */
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+.topo {
+    background-color: rgb(218, 238, 231);
+}   
+img{
+    text-align: center;
+}
+#iconesTop{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    
+}
+
+.link-topo{
+    color: #1d1d1d;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-bottom: 2px solid #1d1d1d;
+}
+

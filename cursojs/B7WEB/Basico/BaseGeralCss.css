@@ -1,0 +1,17 @@
+#Titulo{
+    color: green;
+}
+.texto{
+    color:red;
+}
+
+/* União
+#Titulo, .texto {
+    color: blue;
+    font-size: 25px;
+}
+*/
+
+ol li{
+    color:pink
+}

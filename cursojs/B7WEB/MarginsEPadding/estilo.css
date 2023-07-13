@@ -1,0 +1,9 @@
+body{
+    margin:0px;
+}
+
+.exemplo{
+    border: 1px solid #0F0;
+    padding: 10px 20px 10px 20px; /*Ordem horária: Cima, dir, baixo, esq*/
+    margin: 10px;
+}
